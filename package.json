@@ -1,13 +1,13 @@
 {
-  "name": "sporketh",
+  "name": "gh-bot",
   "version": "1.0.0",
   "private": true,
   "description": "A Probot app",
   "author": "Weilbyte <git@weilbyte.dev>",
   "license": "MIT",
-  "repository": "https://github.com/Weilbyte/sporketh.git",
-  "homepage": "https://github.com/Weilbyte/sporketh",
-  "bugs": "https://github.com/Weilbyte/sporketh/issues",
+  "repository": "https://github.com/Weilbyte/gh-bot.git",
+  "homepage": "https://github.com/Weilbyte/gh-bot",
+  "bugs": "https://github.com/Weilbyte/gh-bot/issues",
   "keywords": [
     "probot",
     "github",
@@ -17,7 +17,8 @@
     "start": "probot run ./src/index.js"
   },
   "dependencies": {
-    "probot": "^10.1.0"
+    "probot": "^10.1.0",
+    "webhook-discord": "^3.7.5"
   },
   "devDependencies": {
     "smee-client": "^1.1.0"
